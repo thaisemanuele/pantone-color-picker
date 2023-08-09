@@ -1,0 +1,25 @@
+.color-card-container {
+  display: grid;
+  margin: 1rem 0;
+}
+.color-card-box {
+  min-width: 200px;
+  height: 180px;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.card-hex-display {
+  padding: 1rem;
+  margin: 0;
+  max-height: 40px;
+  align-self: flex-end;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background: linear-gradient(to top right, #e9e5de 50%, transparent 100%);
+}
+.color-card-name {
+  padding: 1rem;
+  background-color: #b76e794d;
+  color: #ac5b6f;
+  font-weight: 600;
+}
