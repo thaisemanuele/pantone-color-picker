@@ -4,9 +4,10 @@
     "hex": "#FF6F61",
     "year": 2019,
     "rgb": [255, 111, 97],
-    "hsv": [13, 62, 100],
-    "hsl": [13, 100, 65],
-    "decimal": 16744289
+    "hsv": [6, 62, 100],
+    "hsl": [6, 100, 70],
+    "decimal": 16732449,
+    "verified": true
   },
   {
     "name": "Classic Blue",
@@ -15,7 +16,8 @@
     "rgb": [15, 76, 129],
     "hsv": [209, 88, 51],
     "hsl": [209, 77, 29],
-    "decimal": 996417
+    "decimal": 996417,
+    "verified": true
   },
   {
     "name": "Ultra Violet",
@@ -24,7 +26,8 @@
     "rgb": [95, 75, 139],
     "hsv": [259, 46, 55],
     "hsl": [259, 35, 42],
-    "decimal": 6251123
+    "decimal": 6251123,
+    "verified": true
   },
   {
     "name": "Marsala",
@@ -33,7 +36,14 @@
     "rgb": [149, 82, 81],
     "hsv": [1, 46, 58],
     "hsl": [1, 30, 41],
-    "decimal": 9761233
+    "decimal": 9761233,
+    "images": [
+      {
+        "author": "Anete Lusina",
+        "authorUrl": "https://www.pexels.com/@anete-lusina/",
+        "url": "https://images.pexels.com/photos/6331032/pexels-photo-6331032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
   },
   {
     "name": "Greenery",
@@ -55,12 +65,13 @@
   },
   {
     "name": "Radiant Orchid",
-    "hex": "#B163A3",
-    "year": 2014,
-    "rgb": [177, 99, 163],
-    "hsv": [311, 44, 69],
-    "hsl": [311, 35, 52],
-    "decimal": 11762339
+    "hex": "#AD5F99",
+    "year": null,
+    "rgb": [173, 95, 153],
+    "hsv": [314, 45, 68],
+    "hsl": [314, 32, 53],
+    "decimal": 11355545,
+    "verified": true
   },
   {
     "name": "Tangerine Tango",
@@ -117,13 +128,13 @@
     "decimal": 16258633
   },
   {
-    "name": "Sapphire",
-    "hex": "#0F52BA",
+    "name": "Blue Sapphire",
+    "hex": "#2E6784",
     "year": null,
-    "rgb": [15, 82, 186],
-    "hsv": [217, 92, 73],
-    "hsl": [217, 85, 39],
-    "decimal": 40274
+    "rgb": [46, 103, 132],
+    "hsv": [199, 65, 52],
+    "hsl": [199, 48, 36],
+    "decimal": 3023692
   },
   {
     "name": "Coral Pink",
@@ -136,12 +147,19 @@
   },
   {
     "name": "Turquoise",
-    "hex": "#30D5C8",
-    "year": null,
-    "rgb": [48, 213, 200],
-    "hsv": [175, 77, 83],
-    "hsl": [175, 62, 49],
-    "decimal": 3150728
+    "hex": "#3EBBA6",
+    "year": 2010,
+    "rgb": [62, 187, 166],
+    "hsv": [169, 67, 73],
+    "hsl": [169, 50, 48],
+    "decimal": 4168390,
+    "images": [
+      {
+        "author": "Miftah Rafli Hidayat",
+        "authorUrl": "https://www.pexels.com/@mraflih12/",
+        "url": "https://images.pexels.com/photos/3565113/pexels-photo-3565113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
   },
   {
     "name": "Classic Rose",
@@ -234,13 +252,14 @@
     "decimal": 11715021
   },
   {
-    "name": "Opulent Orchid",
-    "hex": "#926AA6",
+    "name": "Orchid",
+    "hex": "#D29BCB",
     "year": null,
-    "rgb": [146, 106, 166],
-    "hsv": [269, 36, 65],
-    "hsl": [269, 24, 54],
-    "decimal": 9603326
+    "rgb": [210, 155, 203],
+    "hsv": [307, 26, 82],
+    "hsl": [307, 38, 72],
+    "decimal": 13913547,
+    "verified": true
   },
   {
     "name": "Harmony Green",
@@ -325,12 +344,12 @@
   },
   {
     "name": "Caramel Cream",
-    "hex": "#FFD59A",
+    "hex": "#F3C29A",
     "year": null,
-    "rgb": [255, 213, 154],
-    "hsv": [38, 40, 100],
-    "hsl": [38, 100, 80],
-    "decimal": 16761050
+    "rgb": [243, 194, 154],
+    "hsv": [31, 37, 95],
+    "hsl": [31, 71, 80],
+    "decimal": 15987514
   },
   {
     "name": "Plush Plum",
@@ -387,13 +406,13 @@
     "decimal": 16776960
   },
   {
-    "name": "Ocean Teal",
-    "hex": "#008080",
+    "name": "Ocean Depths",
+    "hex": "#006175",
     "year": null,
-    "rgb": [0, 128, 128],
-    "hsv": [180, 100, 50],
-    "hsl": [180, 100, 25],
-    "decimal": 32896
+    "rgb": [0, 97, 117],
+    "hsv": [188, 100, 46],
+    "hsl": [188, 100, 23],
+    "decimal": 24885
   },
   {
     "name": "Passionate Pink",
@@ -414,13 +433,14 @@
     "decimal": 16711935
   },
   {
-    "name": "Goldenrod",
-    "hex": "#DAA520",
+    "name": "Golden Rod",
+    "hex": "#E9A916",
     "year": null,
-    "rgb": [218, 165, 32],
-    "hsv": [43, 85, 85],
-    "hsl": [43, 74, 49],
-    "decimal": 14329120
+    "rgb": [233, 169, 22],
+    "hsv": [43, 91, 91],
+    "hsl": [43, 81, 50],
+    "decimal": 15328278,
+    "verified": true
   },
   {
     "name": "Periwinkle",
@@ -496,12 +516,13 @@
   },
   {
     "name": "Orchid Haze",
-    "hex": "#7D64B1",
+    "hex": "#B186A0",
     "year": null,
-    "rgb": [125, 100, 177],
-    "hsv": [251, 44, 69],
-    "hsl": [251, 29, 56],
-    "decimal": 8242385
+    "rgb": [177, 134, 160],
+    "hsv": [320, 24, 69],
+    "hsl": [320, 24, 61],
+    "decimal": 11719200,
+    "verified": true
   },
   {
     "name": "Luminous Lime",
@@ -568,12 +589,20 @@
   },
   {
     "name": "Flamingo Pink",
-    "hex": "#F05A8B",
+    "hex": "#F396A1",
     "year": null,
-    "rgb": [240, 90, 139],
-    "hsv": [334, 62, 94],
-    "hsl": [334, 80, 64],
-    "decimal": 15768779
+    "rgb": [243, 150, 161],
+    "hsv": [345, 38, 95],
+    "hsl": [345, 72, 74],
+    "decimal": 15946529,
+    "verified": true,
+    "images": [
+      {
+        "author": "Ksenia Chernaya",
+        "authorUrl": "https://www.pexels.com/@kseniachernaya/",
+        "url": "https://images.pexels.com/photos/7318131/pexels-photo-7318131.jpeg?auto=compress&cs=tinysrgb"
+      }
+    ]
   },
   {
     "name": "Palm",
@@ -612,15 +641,6 @@
     "decimal": 8220763
   },
   {
-    "name": "Pink Yarrow",
-    "hex": "#E56DB1",
-    "year": 2017,
-    "rgb": [229, 109, 177],
-    "hsv": [323, 52, 90],
-    "hsl": [323, 69, 63],
-    "decimal": 15086449
-  },
-  {
     "name": "True Blue",
     "hex": "#0072BB",
     "year": 2000,
@@ -640,12 +660,12 @@
   },
   {
     "name": "Dragonfly",
-    "hex": "#0F52BA",
+    "hex": "#2A5C6A",
     "year": null,
-    "rgb": [15, 82, 186],
-    "hsv": [211, 92, 73],
-    "hsl": [211, 86, 39],
-    "decimal": 82554
+    "rgb": [42, 92, 106],
+    "hsv": [196, 60, 42],
+    "hsl": [196, 43, 31],
+    "decimal": 2808146
   },
   {
     "name": "Morning Glory",
@@ -658,12 +678,13 @@
   },
   {
     "name": "Lilac Sachet",
-    "hex": "#DB91EF",
+    "hex": "#E8AECB",
     "year": null,
-    "rgb": [219, 145, 239],
-    "hsv": [281, 39, 94],
-    "hsl": [281, 73, 75],
-    "decimal": 14408799
+    "rgb": [232, 174, 203],
+    "hsv": [317, 25, 91],
+    "hsl": [317, 53, 77],
+    "decimal": 15254731,
+    "verified": true
   },
   {
     "name": "Bright Gold",
@@ -685,12 +706,13 @@
   },
   {
     "name": "Lavender",
-    "hex": "#8A73D6",
-    "year": 2018,
-    "rgb": [138, 115, 214],
-    "hsv": [259, 46, 84],
-    "hsl": [259, 60, 65],
-    "decimal": 9094374
+    "hex": "#AFA4CF",
+    "year": null,
+    "rgb": [175, 164, 207],
+    "hsv": [256, 20, 81],
+    "hsl": [256, 34, 75],
+    "decimal": 11509359,
+    "verified": true
   },
   {
     "name": "Sodalite Blue",
@@ -699,7 +721,14 @@
     "rgb": [27, 41, 88],
     "hsv": [222, 69, 34],
     "hsl": [222, 54, 22],
-    "decimal": 1783400
+    "decimal": 1783400,
+    "images": [
+      {
+        "author": "Ksenia Chernaya",
+        "authorUrl": "https://www.pexels.com/@kseniachernaya/",
+        "url": "https://images.pexels.com/photos/4048693/pexels-photo-4048693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
   },
   {
     "name": "Primrose Yellow",
@@ -721,12 +750,12 @@
   },
   {
     "name": "Sun Orange",
-    "hex": "#FF6600",
+    "hex": "#F48037",
     "year": null,
-    "rgb": [255, 102, 0],
-    "hsv": [30, 100, 100],
-    "hsl": [30, 100, 50],
-    "decimal": 16729344
+    "rgb": [244, 128, 55],
+    "hsv": [27, 77, 96],
+    "hsl": [27, 88, 58],
+    "decimal": 16074519
   },
   {
     "name": "Emerald",
@@ -869,11 +898,12 @@
   },
   {
     "name": "Arcadia",
-    "hex": "#29AB87",
-    "rgb": [41, 171, 135],
-    "hsv": [165, 76, 67],
-    "hsl": [165, 61, 43],
-    "decimal": 27150215
+    "hex": "#00A68C",
+    "year": null,
+    "rgb": [0, 166, 140],
+    "hsv": [171, 100, 65],
+    "hsl": [171, 100, 33],
+    "decimal": 43468
   },
   {
     "name": "Princess Blue",
@@ -933,11 +963,12 @@
   },
   {
     "name": "Nectarine",
-    "hex": "#FF6F61",
-    "rgb": [255, 111, 97],
-    "hsv": [6, 62, 100],
-    "hsl": [6, 100, 69],
-    "decimal": 16740641
+    "hex": "#FF8656",
+    "year": null,
+    "rgb": [255, 134, 86],
+    "hsv": [19, 66, 100],
+    "hsl": [19, 100, 67],
+    "decimal": 16752374
   },
   {
     "name": "Meadowlark",
@@ -990,11 +1021,12 @@
   },
   {
     "name": "Ultramarine",
-    "hex": "#120A8F",
-    "rgb": [18, 10, 143],
-    "hsv": [237, 93, 56],
-    "hsl": [237, 87, 31],
-    "decimal": 1188079
+    "hex": "#5A7CC2",
+    "year": null,
+    "rgb": [90, 124, 194],
+    "hsv": [220, 54, 76],
+    "hsl": [220, 44, 55],
+    "decimal": 5958162
   },
   {
     "name": "Driftwood",
@@ -1038,11 +1070,13 @@
   },
   {
     "name": "Sea Pink",
-    "hex": "#ED989E",
-    "rgb": [237, 152, 158],
-    "hsv": [352, 36, 93],
-    "hsl": [352, 71, 77],
-    "decimal": 15595038
+    "hex": "#DD98AB",
+    "year": null,
+    "rgb": [221, 152, 171],
+    "hsv": [333, 31, 87],
+    "hsl": [333, 47, 70],
+    "decimal": 14508459,
+    "verified": true
   },
   {
     "name": "Nimbus Cloud",
@@ -1097,12 +1131,12 @@
   },
   {
     "name": "Cedar Wood",
-    "hex": "#BB6F3E",
+    "hex": "#A2695F",
     "year": null,
-    "rgb": [187, 111, 62],
-    "hsv": [28, 67, 73],
-    "hsl": [28, 51, 48],
-    "decimal": 12225214
+    "rgb": [162, 105, 95],
+    "hsv": [14, 41, 63],
+    "hsl": [14, 29, 49],
+    "decimal": 10696159
   },
   {
     "name": "Rapture Rose",
@@ -1133,12 +1167,13 @@
   },
   {
     "name": "Bermuda",
-    "hex": "#7DD3B0",
+    "hex": "#56CBB3",
     "year": null,
-    "rgb": [125, 211, 176],
-    "hsv": [162, 41, 83],
-    "hsl": [162, 47, 65],
-    "decimal": 8251696
+    "rgb": [86, 203, 179],
+    "hsv": [174, 58, 80],
+    "hsl": [174, 57, 57],
+    "decimal": 5691859,
+    "verified": true
   },
   {
     "name": "Sky Captain",
@@ -1184,15 +1219,6 @@
     "hsv": [47, 54, 88],
     "hsl": [47, 65, 66],
     "decimal": 14835304
-  },
-  {
-    "name": "Flamingo Pink",
-    "hex": "#FC8EAC",
-    "year": null,
-    "rgb": [252, 142, 172],
-    "hsv": [337, 44, 99],
-    "hsl": [337, 93, 77],
-    "decimal": 16674348
   },
   {
     "name": "Grape Nectar",
@@ -1277,12 +1303,12 @@
   },
   {
     "name": "Sea Turtle",
-    "hex": "#8CC3B9",
+    "hex": "#5D5749",
     "year": null,
-    "rgb": [140, 195, 185],
-    "hsv": [166, 28, 76],
-    "hsl": [166, 31, 65],
-    "decimal": 9247593
+    "rgb": [93, 87, 73],
+    "hsv": [47, 22, 37],
+    "hsl": [47, 14, 33],
+    "decimal": 6146137
   },
   {
     "name": "Rose Smoke",
@@ -1331,11 +1357,13 @@
   },
   {
     "name": "Purple Orchid",
-    "hex": "#A76BCF",
-    "rgb": [167, 107, 207],
-    "hsv": [264, 48, 81],
-    "hsl": [264, 55, 63],
-    "decimal": 11043503
+    "hex": "#AE4D8B",
+    "year": null,
+    "rgb": [174, 77, 139],
+    "hsv": [319, 56, 68],
+    "hsl": [319, 44, 48],
+    "decimal": 11439307,
+    "verified": true
   },
   {
     "name": "Cherry Mahogany",
@@ -1387,14 +1415,6 @@
     "decimal": 12323185
   },
   {
-    "name": "Charcoal",
-    "hex": "#4E4E4C",
-    "rgb": [78, 78, 76],
-    "hsv": [60, 3, 31],
-    "hsl": [60, 1, 30],
-    "decimal": 5131852
-  },
-  {
     "name": "Rose Wine",
     "hex": "#AC5B6F",
     "rgb": [172, 91, 111],
@@ -1412,11 +1432,12 @@
   },
   {
     "name": "Olive Branch",
-    "hex": "#AAB978",
-    "rgb": [170, 185, 120],
-    "hsv": [74, 35, 73],
-    "hsl": [74, 30, 60],
-    "decimal": 11192752
+    "hex": "#6A6946",
+    "year": null,
+    "rgb": [106, 105, 70],
+    "hsv": [59, 34, 42],
+    "hsl": [59, 21, 33],
+    "decimal": 6988550
   },
   {
     "name": "Dusty Cedar",
@@ -1460,19 +1481,23 @@
   },
   {
     "name": "Orchid Hush",
-    "hex": "#DFB1B6",
-    "rgb": [223, 177, 182],
-    "hsv": [353, 20, 87],
-    "hsl": [353, 39, 76],
-    "decimal": 14608438
+    "hex": "#CFC3D2",
+    "year": null,
+    "rgb": [207, 195, 210],
+    "hsv": [293, 7, 82],
+    "hsl": [293, 17, 79],
+    "decimal": 13684914,
+    "verified": true
   },
   {
     "name": "Burnt Sienna",
-    "hex": "#DD8265",
-    "rgb": [221, 130, 101],
-    "hsv": [16, 54, 87],
-    "hsl": [16, 58, 63],
-    "decimal": 14563941
+    "hex": "#C65D54",
+    "year": null,
+    "rgb": [198, 93, 84],
+    "hsv": [10, 58, 78],
+    "hsl": [10, 51, 56],
+    "decimal": 13136180,
+    "verified": true
   },
   {
     "name": "Caramel Café",
@@ -1500,11 +1525,13 @@
   },
   {
     "name": "Pink Yarrow",
-    "hex": "#E63977",
-    "rgb": [230, 57, 119],
-    "hsv": [332, 75, 90],
-    "hsl": [332, 81, 57],
-    "decimal": 15125751
+    "hex": "#CD3375",
+    "year": null,
+    "rgb": [205, 51, 117],
+    "hsv": [332, 75, 80],
+    "hsl": [332, 60, 54],
+    "decimal": 13594509,
+    "verified": true
   },
   {
     "name": "Vanilla Custard",
@@ -1524,11 +1551,12 @@
   },
   {
     "name": "Wild Aster",
-    "hex": "#A58FAA",
-    "rgb": [165, 143, 170],
-    "hsv": [263, 16, 67],
-    "hsl": [263, 18, 63],
-    "decimal": 10898602
+    "hex": "#92316F",
+    "year": null,
+    "rgb": [146, 49, 111],
+    "hsv": [323, 66, 57],
+    "hsl": [323, 50, 39],
+    "decimal": 9556911
   },
   {
     "name": "Cameo Pink",
@@ -1548,11 +1576,12 @@
   },
   {
     "name": "Raisin",
-    "hex": "#30263E",
-    "rgb": [48, 38, 62],
-    "hsv": [263, 38, 24],
-    "hsl": [263, 24, 19],
-    "decimal": 3156222
+    "hex": "#524144",
+    "year": null,
+    "rgb": [82, 65, 68],
+    "hsv": [345, 21, 32],
+    "hsl": [345, 11, 29],
+    "decimal": 5417748
   },
   {
     "name": "Dark Citron",
@@ -1564,11 +1593,13 @@
   },
   {
     "name": "Charcoal Gray",
-    "hex": "#4E4E4C",
-    "rgb": [78, 78, 76],
-    "hsv": [60, 3, 31],
-    "hsl": [60, 1, 30],
-    "decimal": 5131852
+    "hex": "#6A6A6A",
+    "year": null,
+    "rgb": [106, 106, 106],
+    "hsv": [0, 0, 42],
+    "hsl": [0, 0, 41],
+    "decimal": 11184810,
+    "verified": true
   },
   {
     "name": "Frosted Almond",
@@ -1659,22 +1690,14 @@
     "decimal": 65535
   },
   {
-    "name": "Coral",
-    "hex": "#FF6F61",
+    "name": "Pastel Lilac",
+    "hex": "#BEB1D6",
     "year": null,
-    "rgb": [255, 111, 97],
-    "hsv": [6, 62, 100],
-    "hsl": [6, 100, 70],
-    "decimal": 16732449
-  },
-  {
-    "name": "Lilac",
-    "hex": "#C8A2C8",
-    "year": null,
-    "rgb": [200, 162, 200],
-    "hsv": [300, 19, 78],
-    "hsl": [300, 25, 71],
-    "decimal": 13366536
+    "rgb": [190, 177, 214],
+    "hsv": [262, 17, 84],
+    "hsl": [262, 34, 76],
+    "decimal": 12485590,
+    "verified": true
   },
   {
     "name": "Ruby",
@@ -1695,13 +1718,13 @@
     "decimal": 16759787
   },
   {
-    "name": "Indigo",
-    "hex": "#4B0082",
+    "name": "Blue Indigo",
+    "hex": "#485470",
     "year": null,
-    "rgb": [75, 0, 130],
-    "hsv": [275, 100, 51],
-    "hsl": [275, 100, 25],
-    "decimal": 4915330
+    "rgb": [72, 84, 112],
+    "hsv": [230, 35, 44],
+    "hsl": [230, 20, 40],
+    "decimal": 4803536
   },
   {
     "name": "Peach",
@@ -1720,15 +1743,6 @@
     "hsv": [196, 100, 65],
     "hsl": [196, 100, 33],
     "decimal": 1235783
-  },
-  {
-    "name": "Olive",
-    "hex": "#808000",
-    "year": null,
-    "rgb": [128, 128, 0],
-    "hsv": [60, 100, 50],
-    "hsl": [60, 100, 25],
-    "decimal": 8421376
   },
   {
     "name": "Teal",
@@ -1812,13 +1826,13 @@
     "decimal": 12451600
   },
   {
-    "name": "Navy",
-    "hex": "#000080",
+    "name": "Navy Blue",
+    "hex": "#403F6F",
     "year": null,
-    "rgb": [0, 0, 128],
-    "hsv": [240, 100, 50],
-    "hsl": [240, 100, 25],
-    "decimal": 128
+    "rgb": [64, 63, 111],
+    "hsv": [240, 42, 44],
+    "hsl": [240, 27, 37],
+    "decimal": 4215199
   },
   {
     "name": "Plum",
@@ -1912,21 +1926,22 @@
   },
   {
     "name": "Silver",
-    "hex": "#C0C0C0",
+    "hex": "#A7A9AB",
     "year": null,
-    "rgb": [192, 192, 192],
-    "hsv": [0, 0, 75],
-    "hsl": [0, 0, 75],
-    "decimal": 12632256
+    "rgb": [167, 169, 171],
+    "hsv": [210, 2, 67],
+    "hsl": [210, 2, 66],
+    "decimal": 11119019,
+    "verified": true
   },
   {
-    "name": "Bronze",
-    "hex": "#CD7F32",
+    "name": "Medal Bronze",
+    "hex": "#967444",
     "year": null,
-    "rgb": [205, 127, 50],
-    "hsv": [30, 76, 80],
-    "hsl": [30, 60, 50],
-    "decimal": 10541632
+    "rgb": [150, 116, 68],
+    "hsv": [37, 55, 59],
+    "hsl": [37, 38, 42],
+    "decimal": 9849412
   },
   {
     "name": "Chocolate",
@@ -1939,12 +1954,13 @@
   },
   {
     "name": "Pearl",
-    "hex": "#F0EAD6",
+    "hex": "#F2D7D3",
     "year": null,
-    "rgb": [240, 234, 214],
-    "hsv": [39, 11, 94],
-    "hsl": [39, 46, 89],
-    "decimal": 15792950
+    "rgb": [242, 215, 211],
+    "hsv": [6, 13, 95],
+    "hsl": [6, 53, 88],
+    "decimal": 15977683,
+    "verified": true
   },
   {
     "name": "Onyx",
@@ -2011,21 +2027,21 @@
   },
   {
     "name": "Caramel",
-    "hex": "#FFD59A",
+    "hex": "#BF7651",
     "year": null,
-    "rgb": [255, 213, 154],
-    "hsv": [34, 40, 100],
-    "hsl": [34, 100, 81],
-    "decimal": 16765626
+    "rgb": [191, 118, 81],
+    "hsv": [23, 58, 75],
+    "hsl": [23, 47, 53],
+    "decimal": 12550609
   },
   {
     "name": "Ochre",
-    "hex": "#CC7722",
+    "hex": "#D6AF66",
     "year": null,
-    "rgb": [204, 119, 34],
-    "hsv": [31, 83, 80],
-    "hsl": [31, 72, 48],
-    "decimal": 13369378
+    "rgb": [214, 175, 102],
+    "hsv": [38, 52, 84],
+    "hsl": [38, 55, 60],
+    "decimal": 14175846
   },
   {
     "name": "Fuchsia",
@@ -2046,13 +2062,13 @@
     "decimal": 16258224
   },
   {
-    "name": "Olive Green",
-    "hex": "#B5B35C",
+    "name": "Green Olive",
+    "hex": "#8A8753",
     "year": null,
-    "rgb": [181, 179, 92],
-    "hsv": [59, 49, 71],
-    "hsl": [59, 49, 52],
-    "decimal": 11929308
+    "rgb": [138, 135, 83],
+    "hsv": [57, 40, 54],
+    "hsl": [57, 29, 44],
+    "decimal": 9119907
   },
   {
     "name": "Peacock Blue",
@@ -2074,21 +2090,29 @@
   },
   {
     "name": "Wisteria",
-    "hex": "#C9A0DC",
+    "hex": "#A098AF",
     "year": null,
-    "rgb": [201, 160, 220],
-    "hsv": [277, 27, 86],
-    "hsl": [277, 47, 75],
-    "decimal": 13221852
+    "rgb": [160, 152, 175],
+    "hsv": [246, 13, 69],
+    "hsl": [246, 15, 64],
+    "decimal": 10515951,
+    "verified": true
   },
   {
     "name": "Chocolate Brown",
-    "hex": "#582900",
+    "hex": "#443731",
     "year": null,
-    "rgb": [88, 41, 0],
-    "hsv": [25, 100, 35],
-    "hsl": [25, 100, 17],
-    "decimal": 3639880
+    "rgb": [68, 55, 49],
+    "hsv": [12, 28, 27],
+    "hsl": [12, 16, 24],
+    "decimal": 4541025,
+    "images": [
+      {
+        "author": "Ferhan Akgün",
+        "authorUrl": "https://www.pexels.com/@venusphotography0/",
+        "url": "https://images.pexels.com/photos/13694988/pexels-photo-13694988.jpeg?auto=compress&cs=tinysrgb&w=800"
+      }
+    ]
   },
   {
     "name": "Silver Gray",

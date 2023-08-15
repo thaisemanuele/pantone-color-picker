@@ -1,88 +1,109 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ColorCard from "./ColorCard";
+import ColorInfo from "./ColorInfo";
+import ColorPicker from "./ColorPicker";
+import ContrastSection from "./ContrastSection";
 import "./DisplayColors.css";
 import useDisplayColors from "./useDisplayColors";
 
-const MATCH_LIMIT = 15;
-const UPPER_LIMIT = 50;
+function setColorScheme(color: Color) {
+  const [h, s, l] = color.hsl;
+  const styleRoot = document.documentElement.style;
+  const colorLightL = l + 10 < 80 ? 80 : l + 10;
+  const colorDarkL = l - 10 < 0 ? 0 : l - 10;
+  styleRoot.setProperty("--main-color", `${color?.hex}`);
+  styleRoot.setProperty(
+    "--main-color-light",
+    `hsl(${h} ${s}% ${colorLightL}%)`
+  );
+  styleRoot.setProperty("--main-color-dark", `hsl(${h} ${s}% ${colorDarkL}%)`);
+}
+
+function setTextContrast(contrast: string, colorContrast: string) {
+  const styleRoot = document.documentElement.style;
+  styleRoot.setProperty("--large-text", contrast);
+  styleRoot.setProperty("--small-text", contrast);
+  styleRoot.setProperty("--color-contrast", colorContrast);
+}
 
 const DisplayColors = () => {
-  const { colors, isLoading } = useDisplayColors();
-  const [inputColor, setInputColor] = useState("#000000");
+  const {
+    colors,
+    isLoading,
+    setMainColor,
+    setHexColor,
+    similarColors,
+    initialColor,
+    hexColor,
+    mainColor,
+    colorFinder
+  } = useDisplayColors();
 
-  function filterColorFunction(color: Color) {
-    if (!inputColor.startsWith("#")) {
-      return false;
+  const [colorPalette, setColorPalette] = useState<Color[]>([]);
+
+  useEffect(() => {
+    const colorFound = colors?.find(colorFinder);
+    setMainColor(colorFound);
+    if (colorFound) {
+      setColorScheme(colorFound);
     }
-    const colorVal = inputColor.substring(1);
+  }, [hexColor, colors]);
 
-    const red = parseInt(colorVal.slice(0, 2), 16);
-    const green = parseInt(colorVal.slice(2, 4), 16);
-    const blue = parseInt(colorVal.slice(4, 6), 16);
+  // useEffect(() => {
+  //   const contrastHex = contrastColors?.[0]?.hex || "#000000";
+  //   const colorContrast = contrastColors?.[2]?.hex || contrastHex;
+  //   setTextContrast(contrastHex, colorContrast);
+  // }, [contrastColors]);
 
-    const redDiff = Math.abs(color.rgb[0] - red);
-    const greenDiff = Math.abs(color.rgb[1] - green);
-    const blueDiff = Math.abs(color.rgb[2] - blue);
-
-    const redMatch = redDiff < MATCH_LIMIT;
-    const greenMatch = greenDiff < MATCH_LIMIT;
-    const blueMatch = blueDiff < MATCH_LIMIT;
-
-    const redInRange = redDiff < UPPER_LIMIT;
-    const greenInRange = greenDiff < UPPER_LIMIT;
-    const blueInRange = blueDiff < UPPER_LIMIT;
-
-    if (red >= green && red >= blue && redMatch) {
-      console.log({ color, colorName: color.name, red, green, blue, redMatch });
-
-      return greenInRange && blueInRange;
-    }
-    if (green >= red && green >= blue && greenMatch) {
-      console.log({
-        color,
-        colorName: color.name,
-        red,
-        green,
-        blue,
-        greenMatch
-      });
-
-      return redInRange && blueInRange;
-    }
-    if (blue >= red && blue >= green && blueMatch) {
-      console.log({
-        color,
-        colorName: color.name,
-        red,
-        green,
-        blue,
-        blueMatch
-      });
-
-      return redInRange && greenInRange;
-    }
-
-    return redMatch && greenMatch && blueMatch;
-  }
   if (isLoading) return <div>Loading</div>;
 
   return (
     <div>
-      <div className="main-color-box">
-        <label htmlFor="colorpicker">Pick a color</label>
-        <input
-          type="color"
-          name="colorpicker"
-          value={inputColor}
-          onChange={e => setInputColor(e.target.value)}
-        />
-        <ColorCard hex={inputColor} />
+      <div className="main-color">
+        <div className="main-color-box">
+          <ColorInfo mainColor={mainColor} hexColor={hexColor} />
+          <ColorPicker
+            label="Change"
+            onChange={e => setHexColor(e.target.value)}
+            initialColor={initialColor}
+          />
+        </div>
+        <div className="similar-colors">
+          <h2>Similar colors</h2>
+          <div className="similar-colors-gallery">
+            {similarColors.map((color: Color) => (
+              <ColorCard
+                name={color.name}
+                hex={color.hex}
+                key={color.hex}
+                handleClick={() => {
+                  setColorPalette([...colorPalette, color]);
+                }}
+              />
+            ))}
+          </div>
+        </div>
       </div>
-      <div className="colors-gallery">
-        {colors.filter(filterColorFunction).map((color: Color) => (
-          <ColorCard name={color.name} hex={color.hex} />
-        ))}
-      </div>
+      {false && (
+        <>
+          <h2>Your palette</h2>
+
+          <div className="color-palette">
+            {colorPalette.map(color => (
+              <ColorCard
+                name={color.name}
+                hex={color.hex}
+                key={color.hex}
+                showCode={false}
+              />
+            ))}
+          </div>
+        </>
+      )}
+
+      {mainColor && (
+        <ContrastSection colors={colors ?? []} mainColor={mainColor} />
+      )}
     </div>
   );
 };

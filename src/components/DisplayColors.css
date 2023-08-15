@@ -1,9 +1,25 @@
-.colors-gallery {
+h2 {
+  padding: 0 2rem;
+}
+.similar-colors {
+  padding: 2rem;
+  flex-basis: 50%;
+}
+.similar-colors h2 {
+  margin: 0;
+}
+.similar-colors-gallery {
   display: flex;
   flex-flow: row wrap;
   gap: 2%;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.main-color {
+  display: flex;
+  background-color: var(--main-color-light);
 }
 
 .main-color-box {
@@ -12,13 +28,58 @@
   margin: 0 auto;
   padding: 2rem;
 }
-
-.main-color-box input {
-  width: 100%;
-  margin: 1rem 0;
+.contrast-text {
+  padding: 2rem;
+  margin: 2em auto;
+  color: var(--small-text);
+  background-color: var(--main-color);
+  flex-basis: 60%;
 }
 
-.main-color-box label {
-  grid-row: 1/2;
-  grid-column: 1/2;
+figcaption {
+  color: var(--small-text);
+}
+
+figcaption a {
+  color: var(--color-contrast);
+}
+
+.contrast-text h2 {
+  color: var(--large-text);
+  padding: 0;
+  font-size: 2.2rem;
+}
+
+.bad-contrast {
+  color: var(--bad-contrast);
+}
+
+.contrasting-colors {
+  padding: 1rem 2rem;
+  max-width: 15rem;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  background-color: var(--main-color-light);
+  border: 3px solid var(--main-color-dark);
+  flex-basis: 30%;
+}
+
+.content {
+  background-color: var(--main-color);
+  display: flex;
+}
+.content figure {
+  margin: 0;
+  padding: 2rem;
+}
+.content img {
+  width: 16rem;
+  padding: 2rem;
+}
+
+.color-palette {
+  padding: 2rem;
+  justify-content: center;
+  display: flex;
 }

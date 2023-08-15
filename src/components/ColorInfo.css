@@ -1,0 +1,16 @@
+.color-info {
+  text-align: center;
+  padding: 1rem;
+  width: 200px;
+  height: 240px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--main-color-dark);
+  background-color: var(--main-color);
+  color: var(--large-text);
+}
+
+.info-hexcode {
+  padding: 1em;
+  font-size: x-large;
+}
